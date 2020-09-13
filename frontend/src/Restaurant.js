@@ -6,7 +6,10 @@ class App extends Component {
   
   render() {
     return (
-      <div/> 
+      <div>
+      <Counter/>
+      {this.props.name}
+      </div> 
     )
   }
 }
